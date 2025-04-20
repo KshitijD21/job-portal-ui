@@ -1,0 +1,1252 @@
+[
+  {
+    "User Name": "ugmnje38",
+    "LinkedIn URL": "https://www.linkedin.com/in/ugmnje38",
+    "Gender": "Female",
+    "Experience": {
+      "year": 14,
+      "description": "NLP Engineer with 14 years of experience in ai development"
+    },
+    "Skills": ["Keras", "TensorFlow", "Python", "NLP"],
+    "Education": "Bachelor's",
+    "Field": "AI Development",
+    "Notice period": "Immediate",
+    "Scoring": {
+      "UI-UX": 2,
+      "Software Engineering": 2,
+      "Cloud Engineer": 5,
+      "Data Scientist": 3,
+      "AI Developer": 3,
+      "Marketing": 3
+    },
+    "Location": "Atlanta",
+    "expected salary": 93171,
+    "Company": "Amazon",
+    "JobTitle": "Cloud Developer"
+  },
+  {
+    "User Name": "moorxy67",
+    "LinkedIn URL": "https://www.linkedin.com/in/moorxy67",
+    "Gender": "Male",
+    "Experience": {
+      "year": 4,
+      "description": "UI Designer with 4 years of experience in UI-UX"
+    },
+    "Skills": ["CSS", "Figma", "HTML", "InVision"],
+    "Education": "Master's",
+    "Field": "UI-UX",
+    "Notice period": "15 days",
+    "Scoring": {
+      "UI-UX": 2,
+      "Software Engineering": 3,
+      "Cloud Engineer": 4,
+      "Data Scientist": 4,
+      "AI Developer": 1,
+      "Marketing": 4
+    },
+    "Location": "Atlanta",
+    "expected salary": 147648,
+    "Company": "Microsoft",
+    "JobTitle": "Cloud Developer"
+  },
+  {
+    "User Name": "lmamdp17",
+    "LinkedIn URL": "https://www.linkedin.com/in/lmamdp17",
+    "Gender": "Female",
+    "Experience": {
+      "year": 1,
+      "description": "UI Designer with 1 years of experience in UI-UX"
+    },
+    "Skills": ["Figma", "HTML", "Sketch"],
+    "Education": "Bachelor's",
+    "Field": "UI-UX",
+    "Notice period": "2 months",
+    "Scoring": {
+      "UI-UX": 5,
+      "Software Engineering": 5,
+      "Cloud Engineer": 1,
+      "Data Scientist": 1,
+      "AI Developer": 3,
+      "Marketing": 1
+    },
+    "Location": "San Diego",
+    "expected salary": 133478,
+    "Company": "Amazon",
+    "JobTitle": "Software Developer"
+  },
+  {
+    "User Name": "amhxig93",
+    "LinkedIn URL": "https://www.linkedin.com/in/amhxig93",
+    "Gender": "Female",
+    "Experience": {
+      "year": 0,
+      "description": "Cloud Engineer with 0 years of experience in cloud engineering"
+    },
+    "Skills": ["Docker", "AWS", "Azure"],
+    "Education": "Bachelor's",
+    "Field": "Cloud Engineering",
+    "Notice period": "3 months",
+    "Scoring": {
+      "UI-UX": 5,
+      "Software Engineering": 4,
+      "Cloud Engineer": 2,
+      "Data Scientist": 3,
+      "AI Developer": 1,
+      "Marketing": 3
+    },
+    "Location": "San Diego",
+    "expected salary": 64362,
+    "Company": "Microsoft",
+    "JobTitle": "Data Scientist"
+  },
+  {
+    "User Name": "ivclsg38",
+    "LinkedIn URL": "https://www.linkedin.com/in/ivclsg38",
+    "Gender": "Female",
+    "Experience": {
+      "year": 12,
+      "description": "Marketing Specialist with 12 years of experience in marketing"
+    },
+    "Skills": ["Analytics", "SEO", "Email Marketing", "Social Media"],
+    "Education": "Bachelor's",
+    "Field": "Marketing",
+    "Notice period": "1 month",
+    "Scoring": {
+      "UI-UX": 2,
+      "Software Engineering": 4,
+      "Cloud Engineer": 4,
+      "Data Scientist": 4,
+      "AI Developer": 4,
+      "Marketing": 2
+    },
+    "Location": "San Diego",
+    "expected salary": 136681,
+    "Company": "Amazon",
+    "JobTitle": "Cloud Developer"
+  },
+  {
+    "User Name": "dyrmsm44",
+    "LinkedIn URL": "https://www.linkedin.com/in/dyrmsm44",
+    "Gender": "Female",
+    "Experience": {
+      "year": 11,
+      "description": "Cloud Engineer with 11 years of experience in cloud engineering"
+    },
+    "Skills": ["Terraform", "AWS", "Azure", "Docker"],
+    "Education": "Master's",
+    "Field": "Cloud Engineering",
+    "Notice period": "2 months",
+    "Scoring": {
+      "UI-UX": 3,
+      "Software Engineering": 2,
+      "Cloud Engineer": 3,
+      "Data Scientist": 1,
+      "AI Developer": 3,
+      "Marketing": 1
+    },
+    "Location": "Atlanta",
+    "expected salary": 110260,
+    "Company": "Google",
+    "JobTitle": "Cloud Developer"
+  },
+  {
+    "User Name": "lzrviu19",
+    "LinkedIn URL": "https://www.linkedin.com/in/lzrviu19",
+    "Gender": "Female",
+    "Experience": {
+      "year": 1,
+      "description": "Backend Developer with 1 years of experience in Software Engineering"
+    },
+    "Skills": ["Python", "React"],
+    "Education": "Master's",
+    "Field": "Software Engineering",
+    "Notice period": "Immediate",
+    "Scoring": {
+      "UI-UX": 4,
+      "Software Engineering": 5,
+      "Cloud Engineer": 3,
+      "Data Scientist": 5,
+      "AI Developer": 1,
+      "Marketing": 5
+    },
+    "Location": "New York",
+    "expected salary": 128457,
+    "Company": "Amazon",
+    "JobTitle": "Data Scientist"
+  },
+  {
+    "User Name": "vrptxk88",
+    "LinkedIn URL": "https://www.linkedin.com/in/vrptxk88",
+    "Gender": "Female",
+    "Experience": {
+      "year": 12,
+      "description": "Digital Marketer with 12 years of experience in marketing"
+    },
+    "Skills": ["SEO", "Analytics"],
+    "Education": "Master's",
+    "Field": "Marketing",
+    "Notice period": "3 months",
+    "Scoring": {
+      "UI-UX": 3,
+      "Software Engineering": 2,
+      "Cloud Engineer": 4,
+      "Data Scientist": 2,
+      "AI Developer": 4,
+      "Marketing": 4
+    },
+    "Location": "Denver",
+    "expected salary": 138132,
+    "Company": "Google",
+    "JobTitle": "Data Scientist"
+  },
+  {
+    "User Name": "jmfmxy26",
+    "LinkedIn URL": "https://www.linkedin.com/in/jmfmxy26",
+    "Gender": "Male",
+    "Experience": {
+      "year": 8,
+      "description": "Product Designer with 8 years of experience in UI-UX"
+    },
+    "Skills": ["InVision", "HTML", "Sketch", "Adobe XD"],
+    "Education": "Master's",
+    "Field": "UI-UX",
+    "Notice period": "15 days",
+    "Scoring": {
+      "UI-UX": 3,
+      "Software Engineering": 2,
+      "Cloud Engineer": 4,
+      "Data Scientist": 2,
+      "AI Developer": 1,
+      "Marketing": 1
+    },
+    "Location": "Denver",
+    "expected salary": 92120,
+    "Company": "Google",
+    "JobTitle": "Data Scientist"
+  },
+  {
+    "User Name": "abzuae83",
+    "LinkedIn URL": "https://www.linkedin.com/in/abzuae83",
+    "Gender": "Male",
+    "Experience": {
+      "year": 3,
+      "description": "ML Researcher with 3 years of experience in ai development"
+    },
+    "Skills": ["NLP", "TensorFlow", "Python"],
+    "Education": "Bachelor's",
+    "Field": "AI Development",
+    "Notice period": "1 month",
+    "Scoring": {
+      "UI-UX": 3,
+      "Software Engineering": 1,
+      "Cloud Engineer": 1,
+      "Data Scientist": 1,
+      "AI Developer": 1,
+      "Marketing": 2
+    },
+    "Location": "Austin",
+    "expected salary": 80885,
+    "Company": "Amazon",
+    "JobTitle": "Data Scientist"
+  },
+  {
+    "User Name": "ntokku47",
+    "LinkedIn URL": "https://www.linkedin.com/in/ntokku47",
+    "Gender": "Female",
+    "Experience": {
+      "year": 10,
+      "description": "ML Engineer with 10 years of experience in data science"
+    },
+    "Skills": ["SQL", "Python", "R"],
+    "Education": "Bachelor's",
+    "Field": "Data Science",
+    "Notice period": "2 months",
+    "Scoring": {
+      "UI-UX": 2,
+      "Software Engineering": 2,
+      "Cloud Engineer": 1,
+      "Data Scientist": 2,
+      "AI Developer": 3,
+      "Marketing": 5
+    },
+    "Location": "San Diego",
+    "expected salary": 139859,
+    "Company": "AWS",
+    "JobTitle": "Cloud Developer"
+  },
+  {
+    "User Name": "gncjrd28",
+    "LinkedIn URL": "https://www.linkedin.com/in/gncjrd28",
+    "Gender": "Female",
+    "Experience": {
+      "year": 8,
+      "description": "Software Engineer with 8 years of experience in Software Engineering"
+    },
+    "Skills": ["C++", "Django", "Java", "React"],
+    "Education": "Bachelor's",
+    "Field": "Software Engineering",
+    "Notice period": "2 months",
+    "Scoring": {
+      "UI-UX": 4,
+      "Software Engineering": 2,
+      "Cloud Engineer": 3,
+      "Data Scientist": 1,
+      "AI Developer": 5,
+      "Marketing": 5
+    },
+    "Location": "San Francisco",
+    "expected salary": 139007,
+    "Company": "Microsoft",
+    "JobTitle": "Software Developer"
+  },
+  {
+    "User Name": "vwmodw43",
+    "LinkedIn URL": "https://www.linkedin.com/in/vwmodw43",
+    "Gender": "Female",
+    "Experience": {
+      "year": 9,
+      "description": "Cloud Engineer with 9 years of experience in cloud engineering"
+    },
+    "Skills": ["Terraform", "Kubernetes"],
+    "Education": "Bachelor's",
+    "Field": "Cloud Engineering",
+    "Notice period": "3 months",
+    "Scoring": {
+      "UI-UX": 3,
+      "Software Engineering": 2,
+      "Cloud Engineer": 5,
+      "Data Scientist": 3,
+      "AI Developer": 3,
+      "Marketing": 2
+    },
+    "Location": "Chicago",
+    "expected salary": 93731,
+    "Company": "Google",
+    "JobTitle": "Data Scientist"
+  },
+  {
+    "User Name": "lbqkna52",
+    "LinkedIn URL": "https://www.linkedin.com/in/lbqkna52",
+    "Gender": "Female",
+    "Experience": {
+      "year": 5,
+      "description": "NLP Engineer with 5 years of experience in ai development"
+    },
+    "Skills": ["TensorFlow", "Keras", "PyTorch"],
+    "Education": "Master's",
+    "Field": "AI Development",
+    "Notice period": "Immediate",
+    "Scoring": {
+      "UI-UX": 1,
+      "Software Engineering": 4,
+      "Cloud Engineer": 4,
+      "Data Scientist": 2,
+      "AI Developer": 3,
+      "Marketing": 5
+    },
+    "Location": "Seattle",
+    "expected salary": 81053,
+    "Company": "AWS",
+    "JobTitle": "Cloud Developer"
+  },
+  {
+    "User Name": "apnykz14",
+    "LinkedIn URL": "https://www.linkedin.com/in/apnykz14",
+    "Gender": "Male",
+    "Experience": {
+      "year": 0,
+      "description": "Cloud Architect with 0 years of experience in cloud engineering"
+    },
+    "Skills": ["Terraform", "Azure", "AWS"],
+    "Education": "Master's",
+    "Field": "Cloud Engineering",
+    "Notice period": "Immediate",
+    "Scoring": {
+      "UI-UX": 2,
+      "Software Engineering": 1,
+      "Cloud Engineer": 2,
+      "Data Scientist": 4,
+      "AI Developer": 4,
+      "Marketing": 5
+    },
+    "Location": "Seattle",
+    "expected salary": 146169,
+    "Company": "Amazon",
+    "JobTitle": "Cloud Developer"
+  },
+  {
+    "User Name": "ofqoso13",
+    "LinkedIn URL": "https://www.linkedin.com/in/ofqoso13",
+    "Gender": "Male",
+    "Experience": {
+      "year": 11,
+      "description": "Content Strategist with 11 years of experience in marketing"
+    },
+    "Skills": ["SEO", "Social Media", "Email Marketing", "Content Creation"],
+    "Education": "Bachelor's",
+    "Field": "Marketing",
+    "Notice period": "15 days",
+    "Scoring": {
+      "UI-UX": 5,
+      "Software Engineering": 5,
+      "Cloud Engineer": 4,
+      "Data Scientist": 1,
+      "AI Developer": 4,
+      "Marketing": 5
+    },
+    "Location": "Denver",
+    "expected salary": 62668,
+    "Company": "Google",
+    "JobTitle": "Cloud Developer"
+  },
+  {
+    "User Name": "irzzwi27",
+    "LinkedIn URL": "https://www.linkedin.com/in/irzzwi27",
+    "Gender": "Female",
+    "Experience": {
+      "year": 7,
+      "description": "Data Analyst with 7 years of experience in data science"
+    },
+    "Skills": ["SQL", "Python"],
+    "Education": "Bachelor's",
+    "Field": "Data Science",
+    "Notice period": "Immediate",
+    "Scoring": {
+      "UI-UX": 4,
+      "Software Engineering": 3,
+      "Cloud Engineer": 1,
+      "Data Scientist": 1,
+      "AI Developer": 5,
+      "Marketing": 4
+    },
+    "Location": "Denver",
+    "expected salary": 80109,
+    "Company": "AWS",
+    "JobTitle": "Data Scientist"
+  },
+  {
+    "User Name": "ysjtya51",
+    "LinkedIn URL": "https://www.linkedin.com/in/ysjtya51",
+    "Gender": "Female",
+    "Experience": {
+      "year": 12,
+      "description": "Data Scientist with 12 years of experience in data science"
+    },
+    "Skills": ["TensorFlow", "Python"],
+    "Education": "Bachelor's",
+    "Field": "Data Science",
+    "Notice period": "Immediate",
+    "Scoring": {
+      "UI-UX": 5,
+      "Software Engineering": 3,
+      "Cloud Engineer": 5,
+      "Data Scientist": 5,
+      "AI Developer": 3,
+      "Marketing": 3
+    },
+    "Location": "Austin",
+    "expected salary": 90106,
+    "Company": "Amazon",
+    "JobTitle": "Software Developer"
+  },
+  {
+    "User Name": "xwwpst47",
+    "LinkedIn URL": "https://www.linkedin.com/in/xwwpst47",
+    "Gender": "Male",
+    "Experience": {
+      "year": 15,
+      "description": "Content Strategist with 15 years of experience in marketing"
+    },
+    "Skills": ["Social Media", "SEO", "Email Marketing", "Analytics"],
+    "Education": "Bachelor's",
+    "Field": "Marketing",
+    "Notice period": "3 months",
+    "Scoring": {
+      "UI-UX": 5,
+      "Software Engineering": 1,
+      "Cloud Engineer": 1,
+      "Data Scientist": 5,
+      "AI Developer": 3,
+      "Marketing": 5
+    },
+    "Location": "New York",
+    "expected salary": 129723,
+    "Company": "AWS",
+    "JobTitle": "Software Developer"
+  },
+  {
+    "User Name": "rdolye92",
+    "LinkedIn URL": "https://www.linkedin.com/in/rdolye92",
+    "Gender": "Female",
+    "Experience": {
+      "year": 12,
+      "description": "DevOps Engineer with 12 years of experience in cloud engineering"
+    },
+    "Skills": ["Azure", "GCP", "Terraform", "Docker"],
+    "Education": "Bachelor's",
+    "Field": "Cloud Engineering",
+    "Notice period": "Immediate",
+    "Scoring": {
+      "UI-UX": 3,
+      "Software Engineering": 3,
+      "Cloud Engineer": 3,
+      "Data Scientist": 5,
+      "AI Developer": 2,
+      "Marketing": 1
+    },
+    "Location": "Atlanta",
+    "expected salary": 85302,
+    "Company": "Microsoft",
+    "JobTitle": "Software Developer"
+  },
+  {
+    "User Name": "dlmvfu77",
+    "LinkedIn URL": "https://www.linkedin.com/in/dlmvfu77",
+    "Gender": "Female",
+    "Experience": {
+      "year": 14,
+      "description": "NLP Engineer with 14 years of experience in ai development"
+    },
+    "Skills": ["Computer Vision", "NLP", "Keras", "Python"],
+    "Education": "Bachelor's",
+    "Field": "AI Development",
+    "Notice period": "3 months",
+    "Scoring": {
+      "UI-UX": 2,
+      "Software Engineering": 4,
+      "Cloud Engineer": 3,
+      "Data Scientist": 5,
+      "AI Developer": 1,
+      "Marketing": 5
+    },
+    "Location": "San Diego",
+    "expected salary": 83656,
+    "Company": "Microsoft",
+    "JobTitle": "Data Scientist"
+  },
+  {
+    "User Name": "eruane32",
+    "LinkedIn URL": "https://www.linkedin.com/in/eruane32",
+    "Gender": "Female",
+    "Experience": {
+      "year": 3,
+      "description": "ML Engineer with 3 years of experience in data science"
+    },
+    "Skills": ["TensorFlow", "Python", "Scikit-learn", "Pandas"],
+    "Education": "Master's",
+    "Field": "Data Science",
+    "Notice period": "3 months",
+    "Scoring": {
+      "UI-UX": 4,
+      "Software Engineering": 5,
+      "Cloud Engineer": 1,
+      "Data Scientist": 3,
+      "AI Developer": 5,
+      "Marketing": 3
+    },
+    "Location": "Seattle",
+    "expected salary": 87461,
+    "Company": "Microsoft",
+    "JobTitle": "Software Developer"
+  },
+  {
+    "User Name": "kxfktz46",
+    "LinkedIn URL": "https://www.linkedin.com/in/kxfktz46",
+    "Gender": "Female",
+    "Experience": {
+      "year": 5,
+      "description": "Content Strategist with 5 years of experience in marketing"
+    },
+    "Skills": ["Google Ads", "Analytics", "Email Marketing", "Social Media"],
+    "Education": "Bachelor's",
+    "Field": "Marketing",
+    "Notice period": "1 month",
+    "Scoring": {
+      "UI-UX": 5,
+      "Software Engineering": 5,
+      "Cloud Engineer": 2,
+      "Data Scientist": 1,
+      "AI Developer": 4,
+      "Marketing": 2
+    },
+    "Location": "Seattle",
+    "expected salary": 148788,
+    "Company": "Google",
+    "JobTitle": "Software Developer"
+  },
+  {
+    "User Name": "xwylgv38",
+    "LinkedIn URL": "https://www.linkedin.com/in/xwylgv38",
+    "Gender": "Male",
+    "Experience": {
+      "year": 7,
+      "description": "ML Engineer with 7 years of experience in data science"
+    },
+    "Skills": ["Python", "R"],
+    "Education": "Bachelor's",
+    "Field": "Data Science",
+    "Notice period": "3 months",
+    "Scoring": {
+      "UI-UX": 2,
+      "Software Engineering": 5,
+      "Cloud Engineer": 4,
+      "Data Scientist": 2,
+      "AI Developer": 1,
+      "Marketing": 2
+    },
+    "Location": "Seattle",
+    "expected salary": 77780,
+    "Company": "Google",
+    "JobTitle": "Cloud Developer"
+  },
+  {
+    "User Name": "jcnckk99",
+    "LinkedIn URL": "https://www.linkedin.com/in/jcnckk99",
+    "Gender": "Male",
+    "Experience": {
+      "year": 4,
+      "description": "Content Strategist with 4 years of experience in marketing"
+    },
+    "Skills": ["Content Creation", "Social Media", "Email Marketing", "SEO"],
+    "Education": "Master's",
+    "Field": "Marketing",
+    "Notice period": "2 months",
+    "Scoring": {
+      "UI-UX": 3,
+      "Software Engineering": 4,
+      "Cloud Engineer": 1,
+      "Data Scientist": 3,
+      "AI Developer": 4,
+      "Marketing": 5
+    },
+    "Location": "Austin",
+    "expected salary": 100571,
+    "Company": "Microsoft",
+    "JobTitle": "Cloud Developer"
+  },
+  {
+    "User Name": "ymobgl95",
+    "LinkedIn URL": "https://www.linkedin.com/in/ymobgl95",
+    "Gender": "Male",
+    "Experience": {
+      "year": 4,
+      "description": "Marketing Specialist with 4 years of experience in marketing"
+    },
+    "Skills": ["SEO", "Analytics", "Google Ads", "Content Creation"],
+    "Education": "Master's",
+    "Field": "Marketing",
+    "Notice period": "3 months",
+    "Scoring": {
+      "UI-UX": 1,
+      "Software Engineering": 3,
+      "Cloud Engineer": 2,
+      "Data Scientist": 2,
+      "AI Developer": 1,
+      "Marketing": 3
+    },
+    "Location": "Miami",
+    "expected salary": 59791,
+    "Company": "AWS",
+    "JobTitle": "Software Developer"
+  },
+  {
+    "User Name": "szkrae46",
+    "LinkedIn URL": "https://www.linkedin.com/in/szkrae46",
+    "Gender": "Male",
+    "Experience": {
+      "year": 14,
+      "description": "Full Stack Developer with 14 years of experience in Software Engineering"
+    },
+    "Skills": ["Python", "C++"],
+    "Education": "Bachelor's",
+    "Field": "Software Engineering",
+    "Notice period": "Immediate",
+    "Scoring": {
+      "UI-UX": 2,
+      "Software Engineering": 2,
+      "Cloud Engineer": 3,
+      "Data Scientist": 3,
+      "AI Developer": 1,
+      "Marketing": 2
+    },
+    "Location": "San Francisco",
+    "expected salary": 129520,
+    "Company": "Microsoft",
+    "JobTitle": "Cloud Developer"
+  },
+  {
+    "User Name": "foxkjj44",
+    "LinkedIn URL": "https://www.linkedin.com/in/foxkjj44",
+    "Gender": "Male",
+    "Experience": {
+      "year": 8,
+      "description": "Software Engineer with 8 years of experience in Software Engineering"
+    },
+    "Skills": ["React", "Python", "Django", "C++"],
+    "Education": "Master's",
+    "Field": "Software Engineering",
+    "Notice period": "Immediate",
+    "Scoring": {
+      "UI-UX": 2,
+      "Software Engineering": 4,
+      "Cloud Engineer": 2,
+      "Data Scientist": 3,
+      "AI Developer": 5,
+      "Marketing": 5
+    },
+    "Location": "Seattle",
+    "expected salary": 132632,
+    "Company": "Amazon",
+    "JobTitle": "Cloud Developer"
+  },
+  {
+    "User Name": "lyvepn90",
+    "LinkedIn URL": "https://www.linkedin.com/in/lyvepn90",
+    "Gender": "Male",
+    "Experience": {
+      "year": 4,
+      "description": "Product Designer with 4 years of experience in UI-UX"
+    },
+    "Skills": ["InVision", "Adobe XD", "Sketch", "Figma"],
+    "Education": "Master's",
+    "Field": "UI-UX",
+    "Notice period": "15 days",
+    "Scoring": {
+      "UI-UX": 5,
+      "Software Engineering": 2,
+      "Cloud Engineer": 4,
+      "Data Scientist": 2,
+      "AI Developer": 5,
+      "Marketing": 5
+    },
+    "Location": "Seattle",
+    "expected salary": 90916,
+    "Company": "Microsoft",
+    "JobTitle": "Software Developer"
+  },
+  {
+    "User Name": "yjxlcu38",
+    "LinkedIn URL": "https://www.linkedin.com/in/yjxlcu38",
+    "Gender": "Female",
+    "Experience": {
+      "year": 12,
+      "description": "UX Designer with 12 years of experience in UI-UX"
+    },
+    "Skills": ["Sketch", "HTML", "InVision"],
+    "Education": "Master's",
+    "Field": "UI-UX",
+    "Notice period": "2 months",
+    "Scoring": {
+      "UI-UX": 4,
+      "Software Engineering": 4,
+      "Cloud Engineer": 5,
+      "Data Scientist": 1,
+      "AI Developer": 3,
+      "Marketing": 5
+    },
+    "Location": "Boston",
+    "expected salary": 121197,
+    "Company": "Microsoft",
+    "JobTitle": "Cloud Developer"
+  },
+  {
+    "User Name": "hdzlka89",
+    "LinkedIn URL": "https://www.linkedin.com/in/hdzlka89",
+    "Gender": "Female",
+    "Experience": {
+      "year": 10,
+      "description": "Data Analyst with 10 years of experience in data science"
+    },
+    "Skills": ["TensorFlow", "Python", "Pandas", "Scikit-learn"],
+    "Education": "Master's",
+    "Field": "Data Science",
+    "Notice period": "1 month",
+    "Scoring": {
+      "UI-UX": 1,
+      "Software Engineering": 3,
+      "Cloud Engineer": 2,
+      "Data Scientist": 3,
+      "AI Developer": 4,
+      "Marketing": 5
+    },
+    "Location": "Seattle",
+    "expected salary": 59658,
+    "Company": "Google",
+    "JobTitle": "Data Scientist"
+  },
+  {
+    "User Name": "wucrnd91",
+    "LinkedIn URL": "https://www.linkedin.com/in/wucrnd91",
+    "Gender": "Male",
+    "Experience": {
+      "year": 3,
+      "description": "UX Designer with 3 years of experience in UI-UX"
+    },
+    "Skills": ["Sketch", "HTML", "InVision", "Figma"],
+    "Education": "Bachelor's",
+    "Field": "UI-UX",
+    "Notice period": "1 month",
+    "Scoring": {
+      "UI-UX": 2,
+      "Software Engineering": 1,
+      "Cloud Engineer": 2,
+      "Data Scientist": 2,
+      "AI Developer": 4,
+      "Marketing": 1
+    },
+    "Location": "New York",
+    "expected salary": 55259,
+    "Company": "Google",
+    "JobTitle": "Software Developer"
+  },
+  {
+    "User Name": "cxyyei82",
+    "LinkedIn URL": "https://www.linkedin.com/in/cxyyei82",
+    "Gender": "Female",
+    "Experience": {
+      "year": 3,
+      "description": "DevOps Engineer with 3 years of experience in cloud engineering"
+    },
+    "Skills": ["Kubernetes", "Terraform", "Docker"],
+    "Education": "Master's",
+    "Field": "Cloud Engineering",
+    "Notice period": "Immediate",
+    "Scoring": {
+      "UI-UX": 2,
+      "Software Engineering": 5,
+      "Cloud Engineer": 3,
+      "Data Scientist": 4,
+      "AI Developer": 1,
+      "Marketing": 5
+    },
+    "Location": "Denver",
+    "expected salary": 70112,
+    "Company": "Amazon",
+    "JobTitle": "Cloud Developer"
+  },
+  {
+    "User Name": "yjdegf68",
+    "LinkedIn URL": "https://www.linkedin.com/in/yjdegf68",
+    "Gender": "Male",
+    "Experience": {
+      "year": 14,
+      "description": "ML Researcher with 14 years of experience in ai development"
+    },
+    "Skills": ["TensorFlow", "Computer Vision", "Python", "PyTorch"],
+    "Education": "Master's",
+    "Field": "AI Development",
+    "Notice period": "1 month",
+    "Scoring": {
+      "UI-UX": 5,
+      "Software Engineering": 4,
+      "Cloud Engineer": 5,
+      "Data Scientist": 1,
+      "AI Developer": 5,
+      "Marketing": 1
+    },
+    "Location": "New York",
+    "expected salary": 117643,
+    "Company": "AWS",
+    "JobTitle": "Data Scientist"
+  },
+  {
+    "User Name": "ezipta56",
+    "LinkedIn URL": "https://www.linkedin.com/in/ezipta56",
+    "Gender": "Female",
+    "Experience": {
+      "year": 6,
+      "description": "Backend Developer with 6 years of experience in Software Engineering"
+    },
+    "Skills": ["React", "Django", "C++", "Java"],
+    "Education": "Bachelor's",
+    "Field": "Software Engineering",
+    "Notice period": "2 months",
+    "Scoring": {
+      "UI-UX": 3,
+      "Software Engineering": 1,
+      "Cloud Engineer": 1,
+      "Data Scientist": 5,
+      "AI Developer": 1,
+      "Marketing": 2
+    },
+    "Location": "Miami",
+    "expected salary": 60108,
+    "Company": "Google",
+    "JobTitle": "Cloud Developer"
+  },
+  {
+    "User Name": "lfgkjf16",
+    "LinkedIn URL": "https://www.linkedin.com/in/lfgkjf16",
+    "Gender": "Female",
+    "Experience": {
+      "year": 7,
+      "description": "Cloud Architect with 7 years of experience in cloud engineering"
+    },
+    "Skills": ["Kubernetes", "Docker", "AWS"],
+    "Education": "Master's",
+    "Field": "Cloud Engineering",
+    "Notice period": "15 days",
+    "Scoring": {
+      "UI-UX": 3,
+      "Software Engineering": 3,
+      "Cloud Engineer": 4,
+      "Data Scientist": 5,
+      "AI Developer": 5,
+      "Marketing": 5
+    },
+    "Location": "Atlanta",
+    "expected salary": 112192,
+    "Company": "Microsoft",
+    "JobTitle": "Cloud Developer"
+  },
+  {
+    "User Name": "tlcyqz68",
+    "LinkedIn URL": "https://www.linkedin.com/in/tlcyqz68",
+    "Gender": "Female",
+    "Experience": {
+      "year": 2,
+      "description": "Product Designer with 2 years of experience in UI-UX"
+    },
+    "Skills": ["CSS", "Sketch"],
+    "Education": "Bachelor's",
+    "Field": "UI-UX",
+    "Notice period": "1 month",
+    "Scoring": {
+      "UI-UX": 3,
+      "Software Engineering": 2,
+      "Cloud Engineer": 5,
+      "Data Scientist": 3,
+      "AI Developer": 1,
+      "Marketing": 1
+    },
+    "Location": "San Francisco",
+    "expected salary": 62724,
+    "Company": "AWS",
+    "JobTitle": "Cloud Developer"
+  },
+  {
+    "User Name": "hooiwo26",
+    "LinkedIn URL": "https://www.linkedin.com/in/hooiwo26",
+    "Gender": "Female",
+    "Experience": {
+      "year": 11,
+      "description": "Content Strategist with 11 years of experience in marketing"
+    },
+    "Skills": ["Email Marketing", "Analytics"],
+    "Education": "Master's",
+    "Field": "Marketing",
+    "Notice period": "15 days",
+    "Scoring": {
+      "UI-UX": 1,
+      "Software Engineering": 2,
+      "Cloud Engineer": 1,
+      "Data Scientist": 4,
+      "AI Developer": 5,
+      "Marketing": 5
+    },
+    "Location": "Boston",
+    "expected salary": 118145,
+    "Company": "AWS",
+    "JobTitle": "Cloud Developer"
+  },
+  {
+    "User Name": "muqbot41",
+    "LinkedIn URL": "https://www.linkedin.com/in/muqbot41",
+    "Gender": "Male",
+    "Experience": {
+      "year": 3,
+      "description": "DevOps Engineer with 3 years of experience in cloud engineering"
+    },
+    "Skills": ["Kubernetes", "Docker"],
+    "Education": "Master's",
+    "Field": "Cloud Engineering",
+    "Notice period": "1 month",
+    "Scoring": {
+      "UI-UX": 3,
+      "Software Engineering": 5,
+      "Cloud Engineer": 3,
+      "Data Scientist": 4,
+      "AI Developer": 4,
+      "Marketing": 4
+    },
+    "Location": "Chicago",
+    "expected salary": 57262,
+    "Company": "Amazon",
+    "JobTitle": "Data Scientist"
+  },
+  {
+    "User Name": "gvfgmu53",
+    "LinkedIn URL": "https://www.linkedin.com/in/gvfgmu53",
+    "Gender": "Male",
+    "Experience": {
+      "year": 13,
+      "description": "Cloud Engineer with 13 years of experience in cloud engineering"
+    },
+    "Skills": ["Docker", "Terraform"],
+    "Education": "Bachelor's",
+    "Field": "Cloud Engineering",
+    "Notice period": "3 months",
+    "Scoring": {
+      "UI-UX": 4,
+      "Software Engineering": 2,
+      "Cloud Engineer": 1,
+      "Data Scientist": 3,
+      "AI Developer": 3,
+      "Marketing": 2
+    },
+    "Location": "Boston",
+    "expected salary": 149569,
+    "Company": "Amazon",
+    "JobTitle": "Data Scientist"
+  },
+  {
+    "User Name": "cgigou57",
+    "LinkedIn URL": "https://www.linkedin.com/in/cgigou57",
+    "Gender": "Male",
+    "Experience": {
+      "year": 6,
+      "description": "Backend Developer with 6 years of experience in Software Engineering"
+    },
+    "Skills": ["C++", "Java", "Python", "Spring Boot"],
+    "Education": "Master's",
+    "Field": "Software Engineering",
+    "Notice period": "Immediate",
+    "Scoring": {
+      "UI-UX": 4,
+      "Software Engineering": 1,
+      "Cloud Engineer": 2,
+      "Data Scientist": 1,
+      "AI Developer": 3,
+      "Marketing": 5
+    },
+    "Location": "Austin",
+    "expected salary": 61461,
+    "Company": "Microsoft",
+    "JobTitle": "Software Developer"
+  },
+  {
+    "User Name": "tqpytt59",
+    "LinkedIn URL": "https://www.linkedin.com/in/tqpytt59",
+    "Gender": "Male",
+    "Experience": {
+      "year": 8,
+      "description": "UX Designer with 8 years of experience in UI-UX"
+    },
+    "Skills": ["Adobe XD", "CSS", "HTML", "Sketch"],
+    "Education": "Bachelor's",
+    "Field": "UI-UX",
+    "Notice period": "2 months",
+    "Scoring": {
+      "UI-UX": 2,
+      "Software Engineering": 2,
+      "Cloud Engineer": 1,
+      "Data Scientist": 1,
+      "AI Developer": 3,
+      "Marketing": 5
+    },
+    "Location": "Austin",
+    "expected salary": 127648,
+    "Company": "AWS",
+    "JobTitle": "Cloud Developer"
+  },
+  {
+    "User Name": "zfilmz19",
+    "LinkedIn URL": "https://www.linkedin.com/in/zfilmz19",
+    "Gender": "Female",
+    "Experience": {
+      "year": 4,
+      "description": "Content Strategist with 4 years of experience in marketing"
+    },
+    "Skills": ["Content Creation", "SEO"],
+    "Education": "Master's",
+    "Field": "Marketing",
+    "Notice period": "3 months",
+    "Scoring": {
+      "UI-UX": 5,
+      "Software Engineering": 1,
+      "Cloud Engineer": 5,
+      "Data Scientist": 4,
+      "AI Developer": 4,
+      "Marketing": 1
+    },
+    "Location": "Austin",
+    "expected salary": 77663,
+    "Company": "Google",
+    "JobTitle": "Software Developer"
+  },
+  {
+    "User Name": "wowefc60",
+    "LinkedIn URL": "https://www.linkedin.com/in/wowefc60",
+    "Gender": "Female",
+    "Experience": {
+      "year": 14,
+      "description": "Full Stack Developer with 14 years of experience in Software Engineering"
+    },
+    "Skills": ["Django", "React", "Spring Boot"],
+    "Education": "Bachelor's",
+    "Field": "Software Engineering",
+    "Notice period": "2 months",
+    "Scoring": {
+      "UI-UX": 3,
+      "Software Engineering": 4,
+      "Cloud Engineer": 2,
+      "Data Scientist": 2,
+      "AI Developer": 5,
+      "Marketing": 5
+    },
+    "Location": "Denver",
+    "expected salary": 120845,
+    "Company": "AWS",
+    "JobTitle": "Cloud Developer"
+  },
+  {
+    "User Name": "cqqnfa81",
+    "LinkedIn URL": "https://www.linkedin.com/in/cqqnfa81",
+    "Gender": "Female",
+    "Experience": {
+      "year": 14,
+      "description": "ML Engineer with 14 years of experience in data science"
+    },
+    "Skills": ["Python", "R", "Pandas"],
+    "Education": "Master's",
+    "Field": "Data Science",
+    "Notice period": "1 month",
+    "Scoring": {
+      "UI-UX": 3,
+      "Software Engineering": 3,
+      "Cloud Engineer": 2,
+      "Data Scientist": 2,
+      "AI Developer": 5,
+      "Marketing": 1
+    },
+    "Location": "San Diego",
+    "expected salary": 103467,
+    "Company": "AWS",
+    "JobTitle": "Software Developer"
+  },
+  {
+    "User Name": "kgydsg60",
+    "LinkedIn URL": "https://www.linkedin.com/in/kgydsg60",
+    "Gender": "Female",
+    "Experience": {
+      "year": 11,
+      "description": "Product Designer with 11 years of experience in UI-UX"
+    },
+    "Skills": ["Figma", "Sketch", "Adobe XD", "HTML"],
+    "Education": "Master's",
+    "Field": "UI-UX",
+    "Notice period": "15 days",
+    "Scoring": {
+      "UI-UX": 2,
+      "Software Engineering": 2,
+      "Cloud Engineer": 5,
+      "Data Scientist": 3,
+      "AI Developer": 1,
+      "Marketing": 4
+    },
+    "Location": "Miami",
+    "expected salary": 92373,
+    "Company": "AWS",
+    "JobTitle": "Data Scientist"
+  },
+  {
+    "User Name": "ohbrxp85",
+    "LinkedIn URL": "https://www.linkedin.com/in/ohbrxp85",
+    "Gender": "Male",
+    "Experience": {
+      "year": 3,
+      "description": "Full Stack Developer with 3 years of experience in Software Engineering"
+    },
+    "Skills": ["C++", "Django"],
+    "Education": "Bachelor's",
+    "Field": "Software Engineering",
+    "Notice period": "3 months",
+    "Scoring": {
+      "UI-UX": 1,
+      "Software Engineering": 2,
+      "Cloud Engineer": 5,
+      "Data Scientist": 1,
+      "AI Developer": 5,
+      "Marketing": 2
+    },
+    "Location": "Denver",
+    "expected salary": 148007,
+    "Company": "Google",
+    "JobTitle": "Software Developer"
+  },
+  {
+    "User Name": "vuyoyj17",
+    "LinkedIn URL": "https://www.linkedin.com/in/vuyoyj17",
+    "Gender": "Male",
+    "Experience": {
+      "year": 6,
+      "description": "Marketing Specialist with 6 years of experience in marketing"
+    },
+    "Skills": ["Google Ads", "Social Media", "Content Creation"],
+    "Education": "Master's",
+    "Field": "Marketing",
+    "Notice period": "1 month",
+    "Scoring": {
+      "UI-UX": 4,
+      "Software Engineering": 4,
+      "Cloud Engineer": 2,
+      "Data Scientist": 1,
+      "AI Developer": 2,
+      "Marketing": 1
+    },
+    "Location": "San Diego",
+    "expected salary": 73517,
+    "Company": "Google",
+    "JobTitle": "Data Scientist"
+  },
+  {
+    "User Name": "ubbrfr80",
+    "LinkedIn URL": "https://www.linkedin.com/in/ubbrfr80",
+    "Gender": "Female",
+    "Experience": {
+      "year": 4,
+      "description": "Software Engineer with 4 years of experience in Software Engineering"
+    },
+    "Skills": ["Django", "Java", "Python", "C++"],
+    "Education": "Master's",
+    "Field": "Software Engineering",
+    "Notice period": "1 month",
+    "Scoring": {
+      "UI-UX": 3,
+      "Software Engineering": 2,
+      "Cloud Engineer": 5,
+      "Data Scientist": 5,
+      "AI Developer": 3,
+      "Marketing": 4
+    },
+    "Location": "New York",
+    "expected salary": 85498,
+    "Company": "Amazon",
+    "JobTitle": "Data Scientist"
+  },
+  {
+    "User Name": "gzpmuf15",
+    "LinkedIn URL": "https://www.linkedin.com/in/gzpmuf15",
+    "Gender": "Male",
+    "Experience": {
+      "year": 1,
+      "description": "ML Engineer with 1 years of experience in data science"
+    },
+    "Skills": ["Scikit-learn", "TensorFlow", "Pandas", "R"],
+    "Education": "Bachelor's",
+    "Field": "Data Science",
+    "Notice period": "15 days",
+    "Scoring": {
+      "UI-UX": 5,
+      "Software Engineering": 1,
+      "Cloud Engineer": 2,
+      "Data Scientist": 2,
+      "AI Developer": 3,
+      "Marketing": 5
+    },
+    "Location": "Atlanta",
+    "expected salary": 52026,
+    "Company": "AWS",
+    "JobTitle": "Software Developer"
+  }
+]
