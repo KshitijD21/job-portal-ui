@@ -77,6 +77,21 @@ export const fetchGoogleOAuthUrl = async () => {
     console.error("Failed to get Google OAuth URL:", error);
     throw new Error("Could not initiate Google OAuth. Please try again later.");
   }
+}
+
+
+
+export const uploadResume = async (file: File) => {
+  const formData = new FormData();
+  formData.append("resume", file);
+
+  const response = await api.post("/resume/upload", formData, {
+    headers: {
+      "Content-Type": "multipart/form-data",
+    },
+  });
+
+  return response.data;
 };
 
 /** Protected /jobs endpoints **/
