@@ -7,7 +7,7 @@ export interface Job {
   jobId: string;
   company: string;
   jobTitle: string;
-  role: string; // this is your “Social Media Manager” field
+  role: string;
   location: string;
   experience: string;
   salaryRange: string;
@@ -26,16 +26,36 @@ type LoginApiResponse = {
   errors: any;
 };
 
-export const getUsers = async () => {
-  const res = await api.get("/users");
-  return res.data;
-};
+const TOKEN_KEY = "authToken";
 
+/**
+ * Store token in localStorage so axios interceptor
+ * will pick it up on every request.
+ */
 export const loginUser = async (
   email: string,
   password: string
 ): Promise<LoginApiResponse> => {
-  const res = await api.post("/login", { email, password });
+  const res = await api.post<LoginApiResponse>("/login", { email, password });
+  const token = res.data.data.token;
+  // const role = res.data.data.role;
+  // console.log(role);
+  // persist for interceptor
+  localStorage.setItem(TOKEN_KEY, token);
+
+  return res.data;
+};
+
+/**
+ * Clear the stored token.
+ */
+export const logoutUser = () => {
+  localStorage.removeItem(TOKEN_KEY);
+};
+
+/** Unprotected endpoints **/
+export const getUsers = async () => {
+  const res = await api.get("/users");
   return res.data;
 };
 
@@ -45,12 +65,7 @@ export const registerUser = async (
   password: string,
   role: Role
 ) => {
-  const res = await api.post("/register", {
-    email,
-    userName,
-    password,
-    role,
-  });
+  const res = await api.post("/register", { email, userName, password, role });
   return res.data;
 };
 
@@ -63,22 +78,18 @@ export const fetchGoogleOAuthUrl = async () => {
     throw new Error("Could not initiate Google OAuth. Please try again later.");
   }
 };
+
+/** Protected /jobs endpoints **/
 export const getJobs = async (): Promise<Job[]> => {
   const res = await api.get<Job[]>("/jobs");
   return res.data;
 };
 
-/**
- * Fetch a single job by its ID.
- */
 export const getJobById = async (id: string): Promise<Job> => {
   const res = await api.get<Job>(`/jobs/${id}`);
   return res.data;
 };
 
-/**
- * Create a new job posting.
- */
 export const createJob = async (job: Omit<Job, "id">): Promise<Job> => {
   const res = await api.post<Job>("/jobs", job);
   return res.data;
