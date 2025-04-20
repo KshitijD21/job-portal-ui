@@ -19,9 +19,10 @@ type SignUpProps = {
     role?: string;
   };
 };
-
 export default function SignUpPage({ searchParams }: SignUpProps) {
   const role = (searchParams.role as Role) || Role.JOBHUNTER;
+
+  console.log("role ", role);
 
   return <SplitFormLayout role={role} />;
 }
