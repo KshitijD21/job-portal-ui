@@ -3,16 +3,29 @@
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import { useState } from "react";
+import { FormEvent, useEffect, useState } from "react";
+import { registerUser } from "@/lib/api";
+import { Role } from "@/lib/constants/roles";
 
-export default function SignUpForm() {
+export default function SignUpForm({ role }: { role: Role }) {
   const [userName, setUserName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [mounted, setMounted] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  useEffect(() => setMounted(true), []);
+  if (!mounted) return null;
+
+  const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
-    // handle logic here
+
+    try {
+      const res = await registerUser(email, userName, password, role);
+      //   localStorage.setItem("authToken", res);
+      console.log("Sign up successful");
+    } catch (error) {
+      console.error("Sign up failed: ", error);
+    }
   };
 
   return (

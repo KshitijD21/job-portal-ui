@@ -16,6 +16,16 @@ export interface Job {
   skills: string[];
 }
 
+type LoginApiResponse = {
+  status: string;
+  message: string;
+  data: {
+    token: string;
+    role: Role;
+  };
+  errors: any;
+};
+
 export const getUsers = async () => {
   const res = await api.get("/users");
   return res.data;
@@ -24,12 +34,8 @@ export const getUsers = async () => {
 export const loginUser = async (
   email: string,
   password: string
-): Promise<ApiResponse<string>> => {
-  const res = await api.post<ApiResponse<string>>("/login", {
-    email,
-    password,
-  });
-
+): Promise<LoginApiResponse> => {
+  const res = await api.post("/login", { email, password });
   return res.data;
 };
 
