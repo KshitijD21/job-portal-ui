@@ -23,8 +23,8 @@ export default function JobList() {
   );
 
   return (
-    <div className="px-4 py-8">
-      {/* Search + single Filters button */}
+    <div className="flex flex-col h-[84vh]">
+      {/* Search + Filter */}
       <div className="mb-4 flex items-center space-x-4">
         <input
           type="text"
@@ -41,10 +41,10 @@ export default function JobList() {
         </button>
       </div>
 
-      {/* Table */}
-      <div className="overflow-x-auto">
-        <table className="min-w-full divide-y divide-gray-200 bg-white shadow rounded-lg">
-          <thead className="bg-gray-50">
+      {/* Scrollable Table */}
+      <div className="w-full overflow-x-auto rounded-md ">
+        <table className="min-w-[1200px] table-fixed divide-y divide-gray-200 bg-white shadow rounded-lg p-2">
+          <thead className="bg-gray-50 sticky h-11 top-0 z-10 p-2">
             <tr>
               {[
                 "#",
@@ -74,7 +74,7 @@ export default function JobList() {
             {filtered.map((job, i) => (
               <tr
                 key={job.id}
-                onClick={() => router.push(`/view-job/${job.id}`)}
+                onClick={() => router.push(`/dashboard/job/${job.id}`)}
                 className="cursor-pointer hover:bg-gray-50"
               >
                 <td className="px-4 py-2 text-sm text-gray-700">{i + 1}</td>
@@ -89,10 +89,12 @@ export default function JobList() {
                 <td className="px-4 py-2 text-sm text-gray-700">
                   {job.location}
                 </td>
-                <td className="px-4 py-2 text-sm text-gray-700">
+                <td className="px-4 py-2 text-sm min-w-36 max-w-36 truncate text-gray-700">
+                  {" "}
                   {job.experience}
                 </td>
-                <td className="px-4 py-2 text-sm text-gray-700">
+                <td className="px-4 py-2 text-sm min-w-36 max-w-36 truncate text-gray-700">
+                  {" "}
                   {job.salaryRange}
                 </td>
                 <td className="px-4 py-2 text-sm text-gray-700">
@@ -102,7 +104,7 @@ export default function JobList() {
                   <Clock className="h-4 w-4 text-gray-400" />
                   <span>{job.jobPostingDate}</span>
                 </td>
-                <td className="px-4 py-2 text-right">
+                <td className="px-4 py-2 text-right ">
                   <div onClick={(e) => e.stopPropagation()}>
                     <ApplyNowButton
                       onClick={() => console.log("apply to", job.id)}

@@ -6,15 +6,34 @@ export interface Job {
   id: string;
   jobId: string;
   company: string;
+  companyProfile: string; // This is a JSON string – you can also define a nested type
+  companySize: number;
+
   jobTitle: string;
   role: string;
   location: string;
+  country: string;
+  latitude: number;
+  longitude: number;
+
   experience: string;
+  qualifications: string;
+  preference: string;
+
+  jobDescription: string;
+  responsibilities: string;
+  benefits: string;
   salaryRange: string;
   workType: string;
   jobPostingDate: string;
+
   skills: string[];
+
+  contactPerson: string;
+  contact: string;
+  jobPortal: string;
 }
+
 
 type LoginApiResponse = {
   status: string;
@@ -93,4 +112,10 @@ export const getJobById = async (id: string): Promise<Job> => {
 export const createJob = async (job: Omit<Job, "id">): Promise<Job> => {
   const res = await api.post<Job>("/jobs", job);
   return res.data;
+};
+
+
+export const getAIInsights = async (jobId: string) => {
+  const res = await api.post(`/ai/compare-resume?jobId=${jobId}`);
+  return res.data; // contains missingSkills and improvementSuggestions
 };
