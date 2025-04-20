@@ -12,7 +12,7 @@ export default function MainLayout({
       <Sidebar />
       <div className="flex-1 flex flex-col overflow-hidden">
         <Header />
-        <main className="p-6 overflow-y-auto overflow-x-hidden">
+        <main className="p-6 overflow-y-auto overflow-x-hidden rounded-2xl">
           {children}
         </main>
       </div>

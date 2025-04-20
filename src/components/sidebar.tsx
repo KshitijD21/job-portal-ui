@@ -1,12 +1,14 @@
 "use client";
 import {
   BarChart2,
+  Briefcase,
   GitGraph,
   HelpCircle,
   LayoutDashboard,
   LogIn,
   LucideIcon,
   Settings,
+  UploadCloud,
   UserPlus,
 } from "lucide-react";
 import { useTheme } from "next-themes";
@@ -29,19 +31,28 @@ export default function Sidebar() {
   if (!mount) return null;
 
   const sidebarItems: SidebarItem[] = [
-    { label: "Dashboard", path: "/dashboard", icon: LayoutDashboard },
-    { label: "Onboarding", path: "/onboarding", icon: UserPlus },
-    { label: "Analytics", path: "/analytics", icon: BarChart2 },
-    { label: "Settings", path: "/settings", icon: Settings },
-    { label: "Help Center", path: "/help", icon: HelpCircle },
+    {
+      label: "Applications",
+      path: "/dashboard",
+      icon: Briefcase, // 🔄 Represents job applications
+    },
+    {
+      label: "Upload Resume",
+      path: "/onboarding",
+      icon: UploadCloud, // 📤 Indicates uploading documents
+    },
   ];
 
   return (
     <div className="w-56 transition-all bg-gradient-to-r from-gray-100 to-gray-100 dark:from-gray-800 dark:to-gray-900 h-full">
-      <div className="p-2 h-12">
-        <img src={"/logo-light.png"} alt="Logo" className="h-8 w-auto" />
+      <div className="flex items-center justify-center h-12 px-1 mt-2 ">
+        <img
+          src="/logo-new.png"
+          alt="Qruil Logo"
+          className="w-26 object-contain"
+        />
       </div>
-      <hr />
+
       <div className="flex flex-col p-3 gap-5">
         <div className="flex flex-col p-3 gap-5">
           {sidebarItems.map(({ label, path, icon: Icon }: SidebarItem) => {
@@ -49,11 +60,16 @@ export default function Sidebar() {
             return (
               <Link key={path} href={path}>
                 <div
-                  className={`flex items-center gap-3 p-2 rounded-md transition-colors duration-200 ${
+                  className={`flex items-center gap-3 p-2 rounded-md transition-all duration-200 ${
                     isActive
-                      ? "bg-gray-300 dark:bg-gray-700 text-blue-600"
-                      : "hover:bg-gray-200 dark:hover:bg-gray-700 text-gray-800 dark:text-gray-100"
+                      ? "text-white shadow-[0_2px_10px_rgba(250,204,21,0.4)]"
+                      : " dark:hover:bg-yellow-900 text-gray-800 dark:text-gray-100"
                   }`}
+                  style={{
+                    background: isActive
+                      ? "var(--color-yellow-500)"
+                      : undefined,
+                  }}
                 >
                   <Icon className="w-5 h-5" />
                   <p className="text-sm font-medium">{label}</p>

@@ -61,8 +61,9 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import RecruiterList from "./RecruiterList";
+
 import { Card } from "@/components/ui/card";
+import RecruiterList from "@/components/dashboard/RecruiterList";
 
 interface JobPosting {
   id: string;

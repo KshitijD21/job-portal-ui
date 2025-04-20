@@ -29,7 +29,6 @@ export default function SignIn({ searchParams }: Props) {
     e.preventDefault();
     try {
       const res = await loginUser(email, password);
-      console.log("Login Success:", res);
       if (res.status === "success") {
         localStorage.setItem("authToken", res.data.token);
         localStorage.setItem("userRole", res.data.role);
@@ -40,34 +39,39 @@ export default function SignIn({ searchParams }: Props) {
         setMessage("");
       }
     } catch (err: any) {
-      console.error("Login Failed:", err);
       setError("Invalid credentials or server error");
       setMessage("");
     }
   };
 
   return (
-    <form onSubmit={handleSubmit} className="flex min-h-screen w-full">
-      <div className="flex-1 flex flex-row">
+    <div className="flex flex-col min-h-screen w-full">
+      <div className="flex flex-1 flex-row">
+        {/* Left Side - Illustration */}
         <div className="w-1/2 bg-[#FFD233] flex flex-col justify-center items-center text-white">
           <h2 className="text-4xl font-bold mb-4">I'm here for Hiring</h2>
           <img
-            src="/recruiter.png" // ✅ Use job seeker image here if needed
+            src="/recruiter.png"
             alt="Recruiter"
             className="w-48 h-auto mb-6 transform -scale-x-100"
           />
         </div>
-        <div className="flex-1 h-screen flex justify-center items-center ">
-          <div className="w-1/2 flex flex-col gap-4 p-8 bg-white dark:bg-gray-900 rounded-lg shadow-md">
-            <div className="flex flex-col gap-1">
-              <p className="text-2xl font-semibold text-center">Sign In</p>
-              <p className="text-sm text-center text-gray-600 dark:text-gray-300">
+
+        {/* Right Side - Form */}
+        <div className="flex flex-col flex-1 w-1/2 justify-center items-center bg-white dark:bg-gray-900">
+          <form
+            onSubmit={handleSubmit}
+            className="w-[440px] flex flex-col gap-4 p-8 rounded-lg shadow-md bg-white dark:bg-gray-900"
+          >
+            <div className="text-center">
+              <p className="text-2xl font-semibold">Sign In</p>
+              <p className="text-sm text-gray-600 dark:text-gray-300">
                 Access your personalized job recommendations and applications.
               </p>
             </div>
 
             <div className="flex flex-col gap-1">
-              <p className="text-sm font-medium">Email</p>
+              <label className="text-sm font-medium">Email</label>
               <Input
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
@@ -76,7 +80,7 @@ export default function SignIn({ searchParams }: Props) {
             </div>
 
             <div className="flex flex-col gap-1">
-              <p className="text-sm font-medium">Password</p>
+              <label className="text-sm font-medium">Password</label>
               <Input
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
@@ -85,31 +89,34 @@ export default function SignIn({ searchParams }: Props) {
               />
             </div>
 
-            <div className="flex flex-row justify-center mt-2">
-              <Button variant="outline" type="submit" className="w-full">
-                Get Started
-              </Button>
-            </div>
+            <Button type="submit" className="mt-4 w-full" variant="secondary">
+              Get Started
+            </Button>
 
-            <div className="flex flex-row justify-center mt-2">
-              <p>
-                Create new account?{" "}
-                <Link href="/auth/signup" className="text-blue-600">
-                  Sign up
-                </Link>
-              </p>
+            <div className="text-center text-sm">
+              Create new account?{" "}
+              <Link href="/auth/signup" className="text-blue-600">
+                Sign up
+              </Link>
             </div>
 
             {message && <p className="text-green-600 text-sm">{message}</p>}
             {error && <p className="text-red-600 text-sm">{error}</p>}
-          </div>
-        </div>
 
-        <div className="flex justify-between text-xs text-gray-300 mt-auto px-4 pb-2">
-          <p className="text-gray-700 dark:text-gray-200">@ Job portal 2025</p>
-          <p className="text-gray-500 dark:text-gray-400">help@jobportal.com</p>
+            {/* ⬇️ Footer placed inside the form container */}
+            <div className="flex justify-between text-xs text-gray-500 px-1 pt-6">
+              <p>@ Job portal 2025</p>
+              <p>help@jobportal.com</p>
+            </div>
+          </form>
         </div>
       </div>
-    </form>
+
+      {/* Footer outside the main flex row */}
+      {/* <div className="flex justify-between text-xs text-gray-500 px-8 py-4">
+        <p>@ Job portal 2025</p>
+        <p>help@jobportal.com</p>
+      </div> */}
+    </div>
   );
 }

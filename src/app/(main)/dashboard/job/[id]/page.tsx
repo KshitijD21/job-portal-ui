@@ -59,9 +59,14 @@ export default function JobDetailsPage() {
               {job.company} • {job.location}, {job.country}
             </p>
           </div>
-          <button className="bg-gradient-to-r from-indigo-500 to-purple-600 text-white px-6 py-2 rounded-full shadow-md hover:scale-105 transition-transform">
+          <a
+            href="https://www.linkedin.com/jobs/search/?currentJobId=4187612487&keywords=amazon%20cloud%20developer%20job&origin=BLENDED_SEARCH_RESULT_NAVIGATION_JOB_CARD&originToLandingJobPostings=4187612487%2C4082076505%2C4190883463"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-gradient-to-r from-indigo-500 to-purple-600 text-white px-6 py-2 rounded-full shadow-md hover:scale-105 transition-transform"
+          >
             Apply Now
-          </button>
+          </a>
         </div>
 
         {/* Summary Row */}
@@ -139,30 +144,31 @@ export default function JobDetailsPage() {
         </div>
 
         {/* People Who Work Here */}
+        {/* People Who Work Here */}
         <div className="bg-gradient-to-br from-purple-50 to-indigo-50 p-4 rounded shadow-sm">
           <h3 className="font-semibold text-md mb-2 text-indigo-700">
             People at {job.company}
           </h3>
           <div className="space-y-3">
             {[
-              "Aditi Sharma",
-              "Rohit Mehta",
-              "Sana Iqbal",
-              "Priya Kapoor",
-              "Arjun Verma",
+              { name: "Emily Carter", imgId: 10 },
+              { name: "Michael Johnson", imgId: 3 },
+              { name: "Sophia Miller", imgId: 25 },
+              { name: "James Anderson", imgId: 8 },
+              { name: "Olivia Brown", imgId: 30 },
             ].map((person, index) => (
               <div key={index} className="flex items-center gap-3">
                 <img
-                  src={`https://randomuser.me/api/portraits/women/${
-                    index + 20
-                  }.jpg`}
-                  alt="profile"
+                  src={`https://randomuser.me/api/portraits/${
+                    person.imgId % 2 === 0 ? "women" : "men"
+                  }/${person.imgId}.jpg`}
+                  alt={person.name}
                   className="w-9 h-9 rounded-full border"
                 />
                 <div className="text-sm">
-                  <p className="font-medium text-gray-800">{person}</p>
+                  <p className="font-medium text-gray-800">{person.name}</p>
                   <a
-                    href="https://www.linkedin.com/in/sampleprofile"
+                    href="https://www.linkedin.com/in/kshitij-dumbre-1b6870175/"
                     target="_blank"
                     rel="noreferrer"
                     className="text-xs text-indigo-600 hover:underline flex items-center gap-1"
