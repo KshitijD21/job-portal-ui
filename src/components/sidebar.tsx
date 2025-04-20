@@ -39,11 +39,7 @@ export default function Sidebar() {
   return (
     <div className="w-56 transition-all bg-gradient-to-r from-gray-100 to-gray-100 dark:from-gray-800 dark:to-gray-900 h-full">
       <div className="p-2 h-12">
-        <img
-          src={resolvedTheme === "dark" ? "/logo-dark.png" : "/logo-light.png"}
-          alt="Logo"
-          className="h-8 w-auto"
-        />
+        <img src={"/logo-light.png"} alt="Logo" className="h-8 w-auto" />
       </div>
       <hr />
       <div className="flex flex-col p-3 gap-5">
