@@ -1,0 +1,1052 @@
+[
+  {
+    "Gender": "Female",
+    "Experience": {
+      "year": 12,
+      "description": "Content Strategist with 12 years of experience in marketing"
+    },
+    "Skills": ["Analytics", "Content Creation", "Social Media"],
+    "Education": "Master's",
+    "Field": "Marketing",
+    "Notice period": "Immediate",
+    "Scoring": {
+      "UIUX": 5,
+      "software engineering": 5,
+      "cloud engineer": 5,
+      "datascientist": 1,
+      "AI Developer": 4,
+      "Marketing": 5
+    },
+    "Location": "Atlanta",
+    "expected salary": 76929
+  },
+  {
+    "Gender": "Female",
+    "Experience": {
+      "year": 12,
+      "description": "UX Designer with 12 years of experience in uiux"
+    },
+    "Skills": ["Adobe XD", "Sketch"],
+    "Education": "Master's",
+    "Field": "UIUX",
+    "Notice period": "Immediate",
+    "Scoring": {
+      "UIUX": 1,
+      "software engineering": 3,
+      "cloud engineer": 2,
+      "datascientist": 3,
+      "AI Developer": 3,
+      "Marketing": 5
+    },
+    "Location": "Denver",
+    "expected salary": 126067
+  },
+  {
+    "Gender": "Female",
+    "Experience": {
+      "year": 1,
+      "description": "UX Designer with 1 years of experience in uiux"
+    },
+    "Skills": ["InVision", "CSS", "Sketch", "Adobe XD"],
+    "Education": "Master's",
+    "Field": "UIUX",
+    "Notice period": "15 days",
+    "Scoring": {
+      "UIUX": 3,
+      "software engineering": 1,
+      "cloud engineer": 4,
+      "datascientist": 2,
+      "AI Developer": 4,
+      "Marketing": 3
+    },
+    "Location": "Atlanta",
+    "expected salary": 143893
+  },
+  {
+    "Gender": "Male",
+    "Experience": {
+      "year": 12,
+      "description": "Software Engineer with 12 years of experience in software engineering"
+    },
+    "Skills": ["C++", "Django", "Spring Boot"],
+    "Education": "Bachelor's",
+    "Field": "Software Engineering",
+    "Notice period": "15 days",
+    "Scoring": {
+      "UIUX": 3,
+      "software engineering": 5,
+      "cloud engineer": 1,
+      "datascientist": 3,
+      "AI Developer": 3,
+      "Marketing": 4
+    },
+    "Location": "New York",
+    "expected salary": 90121
+  },
+  {
+    "Gender": "Male",
+    "Experience": {
+      "year": 3,
+      "description": "Full Stack Developer with 3 years of experience in software engineering"
+    },
+    "Skills": ["Spring Boot", "Django", "Java"],
+    "Education": "Bachelor's",
+    "Field": "Software Engineering",
+    "Notice period": "2 months",
+    "Scoring": {
+      "UIUX": 2,
+      "software engineering": 5,
+      "cloud engineer": 3,
+      "datascientist": 3,
+      "AI Developer": 5,
+      "Marketing": 1
+    },
+    "Location": "New York",
+    "expected salary": 66524
+  },
+  {
+    "Gender": "Male",
+    "Experience": {
+      "year": 1,
+      "description": "ML Researcher with 1 years of experience in ai development"
+    },
+    "Skills": ["Keras", "TensorFlow", "Python"],
+    "Education": "Master's",
+    "Field": "AI Development",
+    "Notice period": "1 month",
+    "Scoring": {
+      "UIUX": 4,
+      "software engineering": 5,
+      "cloud engineer": 5,
+      "datascientist": 5,
+      "AI Developer": 4,
+      "Marketing": 5
+    },
+    "Location": "Seattle",
+    "expected salary": 99972
+  },
+  {
+    "Gender": "Female",
+    "Experience": {
+      "year": 11,
+      "description": "Content Strategist with 11 years of experience in marketing"
+    },
+    "Skills": ["Content Creation", "Google Ads", "Email Marketing"],
+    "Education": "Bachelor's",
+    "Field": "Marketing",
+    "Notice period": "1 month",
+    "Scoring": {
+      "UIUX": 2,
+      "software engineering": 4,
+      "cloud engineer": 3,
+      "datascientist": 3,
+      "AI Developer": 2,
+      "Marketing": 3
+    },
+    "Location": "Austin",
+    "expected salary": 83508
+  },
+  {
+    "Gender": "Female",
+    "Experience": {
+      "year": 2,
+      "description": "Cloud Engineer with 2 years of experience in cloud engineering"
+    },
+    "Skills": ["Azure", "Docker", "Kubernetes", "AWS"],
+    "Education": "Bachelor's",
+    "Field": "Cloud Engineering",
+    "Notice period": "2 months",
+    "Scoring": {
+      "UIUX": 2,
+      "software engineering": 1,
+      "cloud engineer": 3,
+      "datascientist": 1,
+      "AI Developer": 3,
+      "Marketing": 4
+    },
+    "Location": "Atlanta",
+    "expected salary": 72193
+  },
+  {
+    "Gender": "Female",
+    "Experience": {
+      "year": 15,
+      "description": "Cloud Engineer with 15 years of experience in cloud engineering"
+    },
+    "Skills": ["AWS", "Kubernetes", "GCP"],
+    "Education": "Master's",
+    "Field": "Cloud Engineering",
+    "Notice period": "1 month",
+    "Scoring": {
+      "UIUX": 5,
+      "software engineering": 1,
+      "cloud engineer": 4,
+      "datascientist": 1,
+      "AI Developer": 4,
+      "Marketing": 2
+    },
+    "Location": "Seattle",
+    "expected salary": 140715
+  },
+  {
+    "Gender": "Female",
+    "Experience": {
+      "year": 13,
+      "description": "Cloud Architect with 13 years of experience in cloud engineering"
+    },
+    "Skills": ["AWS", "Terraform", "GCP"],
+    "Education": "Master's",
+    "Field": "Cloud Engineering",
+    "Notice period": "15 days",
+    "Scoring": {
+      "UIUX": 3,
+      "software engineering": 3,
+      "cloud engineer": 2,
+      "datascientist": 2,
+      "AI Developer": 3,
+      "Marketing": 2
+    },
+    "Location": "New York",
+    "expected salary": 50284
+  },
+  {
+    "Gender": "Female",
+    "Experience": {
+      "year": 7,
+      "description": "Cloud Architect with 7 years of experience in cloud engineering"
+    },
+    "Skills": ["GCP", "AWS", "Azure", "Kubernetes"],
+    "Education": "Bachelor's",
+    "Field": "Cloud Engineering",
+    "Notice period": "3 months",
+    "Scoring": {
+      "UIUX": 4,
+      "software engineering": 2,
+      "cloud engineer": 3,
+      "datascientist": 1,
+      "AI Developer": 3,
+      "Marketing": 3
+    },
+    "Location": "Seattle",
+    "expected salary": 145057
+  },
+  {
+    "Gender": "Male",
+    "Experience": {
+      "year": 12,
+      "description": "Content Strategist with 12 years of experience in marketing"
+    },
+    "Skills": ["Analytics", "Google Ads", "Email Marketing", "Social Media"],
+    "Education": "Bachelor's",
+    "Field": "Marketing",
+    "Notice period": "3 months",
+    "Scoring": {
+      "UIUX": 2,
+      "software engineering": 4,
+      "cloud engineer": 4,
+      "datascientist": 3,
+      "AI Developer": 3,
+      "Marketing": 1
+    },
+    "Location": "Seattle",
+    "expected salary": 111270
+  },
+  {
+    "Gender": "Female",
+    "Experience": {
+      "year": 3,
+      "description": "NLP Engineer with 3 years of experience in ai development"
+    },
+    "Skills": ["NLP", "TensorFlow"],
+    "Education": "Bachelor's",
+    "Field": "AI Development",
+    "Notice period": "Immediate",
+    "Scoring": {
+      "UIUX": 4,
+      "software engineering": 5,
+      "cloud engineer": 3,
+      "datascientist": 1,
+      "AI Developer": 3,
+      "Marketing": 2
+    },
+    "Location": "Miami",
+    "expected salary": 87428
+  },
+  {
+    "Gender": "Female",
+    "Experience": {
+      "year": 8,
+      "description": "Full Stack Developer with 8 years of experience in software engineering"
+    },
+    "Skills": ["Python", "React", "Django"],
+    "Education": "Bachelor's",
+    "Field": "Software Engineering",
+    "Notice period": "15 days",
+    "Scoring": {
+      "UIUX": 2,
+      "software engineering": 4,
+      "cloud engineer": 3,
+      "datascientist": 3,
+      "AI Developer": 2,
+      "Marketing": 5
+    },
+    "Location": "Miami",
+    "expected salary": 95258
+  },
+  {
+    "Gender": "Female",
+    "Experience": {
+      "year": 1,
+      "description": "UI Designer with 1 years of experience in uiux"
+    },
+    "Skills": ["CSS", "InVision", "Figma"],
+    "Education": "Master's",
+    "Field": "UIUX",
+    "Notice period": "Immediate",
+    "Scoring": {
+      "UIUX": 5,
+      "software engineering": 2,
+      "cloud engineer": 3,
+      "datascientist": 2,
+      "AI Developer": 4,
+      "Marketing": 1
+    },
+    "Location": "Austin",
+    "expected salary": 110203
+  },
+  {
+    "Gender": "Male",
+    "Experience": {
+      "year": 12,
+      "description": "Backend Developer with 12 years of experience in software engineering"
+    },
+    "Skills": ["React", "C++", "Django"],
+    "Education": "Bachelor's",
+    "Field": "Software Engineering",
+    "Notice period": "2 months",
+    "Scoring": {
+      "UIUX": 5,
+      "software engineering": 3,
+      "cloud engineer": 4,
+      "datascientist": 2,
+      "AI Developer": 3,
+      "Marketing": 3
+    },
+    "Location": "Austin",
+    "expected salary": 99771
+  },
+  {
+    "Gender": "Male",
+    "Experience": {
+      "year": 1,
+      "description": "Data Scientist with 1 years of experience in data science"
+    },
+    "Skills": ["R", "SQL", "TensorFlow", "Scikit-learn"],
+    "Education": "Bachelor's",
+    "Field": "Data Science",
+    "Notice period": "1 month",
+    "Scoring": {
+      "UIUX": 4,
+      "software engineering": 2,
+      "cloud engineer": 3,
+      "datascientist": 1,
+      "AI Developer": 3,
+      "Marketing": 2
+    },
+    "Location": "Seattle",
+    "expected salary": 139472
+  },
+  {
+    "Gender": "Male",
+    "Experience": {
+      "year": 0,
+      "description": "UX Designer with 0 years of experience in uiux"
+    },
+    "Skills": ["HTML", "Sketch", "Adobe XD"],
+    "Education": "Bachelor's",
+    "Field": "UIUX",
+    "Notice period": "2 months",
+    "Scoring": {
+      "UIUX": 1,
+      "software engineering": 1,
+      "cloud engineer": 5,
+      "datascientist": 2,
+      "AI Developer": 3,
+      "Marketing": 2
+    },
+    "Location": "Miami",
+    "expected salary": 105131
+  },
+  {
+    "Gender": "Female",
+    "Experience": {
+      "year": 12,
+      "description": "NLP Engineer with 12 years of experience in ai development"
+    },
+    "Skills": ["Keras", "Python", "NLP"],
+    "Education": "Bachelor's",
+    "Field": "AI Development",
+    "Notice period": "3 months",
+    "Scoring": {
+      "UIUX": 3,
+      "software engineering": 4,
+      "cloud engineer": 1,
+      "datascientist": 2,
+      "AI Developer": 3,
+      "Marketing": 2
+    },
+    "Location": "Seattle",
+    "expected salary": 103358
+  },
+  {
+    "Gender": "Male",
+    "Experience": {
+      "year": 10,
+      "description": "Marketing Specialist with 10 years of experience in marketing"
+    },
+    "Skills": ["Google Ads", "Content Creation"],
+    "Education": "Master's",
+    "Field": "Marketing",
+    "Notice period": "Immediate",
+    "Scoring": {
+      "UIUX": 3,
+      "software engineering": 5,
+      "cloud engineer": 4,
+      "datascientist": 1,
+      "AI Developer": 2,
+      "Marketing": 5
+    },
+    "Location": "Chicago",
+    "expected salary": 56494
+  },
+  {
+    "Gender": "Female",
+    "Experience": {
+      "year": 8,
+      "description": "Cloud Engineer with 8 years of experience in cloud engineering"
+    },
+    "Skills": ["AWS", "GCP", "Docker"],
+    "Education": "Bachelor's",
+    "Field": "Cloud Engineering",
+    "Notice period": "15 days",
+    "Scoring": {
+      "UIUX": 1,
+      "software engineering": 4,
+      "cloud engineer": 5,
+      "datascientist": 2,
+      "AI Developer": 3,
+      "Marketing": 1
+    },
+    "Location": "Seattle",
+    "expected salary": 93459
+  },
+  {
+    "Gender": "Female",
+    "Experience": {
+      "year": 2,
+      "description": "UX Designer with 2 years of experience in uiux"
+    },
+    "Skills": ["HTML", "Adobe XD", "InVision"],
+    "Education": "Bachelor's",
+    "Field": "UIUX",
+    "Notice period": "2 months",
+    "Scoring": {
+      "UIUX": 1,
+      "software engineering": 2,
+      "cloud engineer": 1,
+      "datascientist": 2,
+      "AI Developer": 5,
+      "Marketing": 3
+    },
+    "Location": "Miami",
+    "expected salary": 74930
+  },
+  {
+    "Gender": "Male",
+    "Experience": {
+      "year": 2,
+      "description": "Data Analyst with 2 years of experience in data science"
+    },
+    "Skills": ["Scikit-learn", "TensorFlow"],
+    "Education": "Bachelor's",
+    "Field": "Data Science",
+    "Notice period": "15 days",
+    "Scoring": {
+      "UIUX": 3,
+      "software engineering": 5,
+      "cloud engineer": 2,
+      "datascientist": 4,
+      "AI Developer": 4,
+      "Marketing": 3
+    },
+    "Location": "San Francisco",
+    "expected salary": 134624
+  },
+  {
+    "Gender": "Female",
+    "Experience": {
+      "year": 5,
+      "description": "ML Engineer with 5 years of experience in data science"
+    },
+    "Skills": ["Python", "R"],
+    "Education": "Master's",
+    "Field": "Data Science",
+    "Notice period": "15 days",
+    "Scoring": {
+      "UIUX": 2,
+      "software engineering": 3,
+      "cloud engineer": 3,
+      "datascientist": 4,
+      "AI Developer": 5,
+      "Marketing": 2
+    },
+    "Location": "Seattle",
+    "expected salary": 79441
+  },
+  {
+    "Gender": "Female",
+    "Experience": {
+      "year": 4,
+      "description": "AI Developer with 4 years of experience in ai development"
+    },
+    "Skills": ["Python", "NLP", "Keras"],
+    "Education": "Master's",
+    "Field": "AI Development",
+    "Notice period": "1 month",
+    "Scoring": {
+      "UIUX": 5,
+      "software engineering": 5,
+      "cloud engineer": 5,
+      "datascientist": 5,
+      "AI Developer": 2,
+      "Marketing": 4
+    },
+    "Location": "Chicago",
+    "expected salary": 124214
+  },
+  {
+    "Gender": "Female",
+    "Experience": {
+      "year": 10,
+      "description": "Frontend Developer with 10 years of experience in software engineering"
+    },
+    "Skills": ["Spring Boot", "Django", "Python"],
+    "Education": "Master's",
+    "Field": "Software Engineering",
+    "Notice period": "2 months",
+    "Scoring": {
+      "UIUX": 4,
+      "software engineering": 5,
+      "cloud engineer": 4,
+      "datascientist": 1,
+      "AI Developer": 4,
+      "Marketing": 5
+    },
+    "Location": "Atlanta",
+    "expected salary": 122475
+  },
+  {
+    "Gender": "Male",
+    "Experience": {
+      "year": 7,
+      "description": "Cloud Architect with 7 years of experience in cloud engineering"
+    },
+    "Skills": ["Azure", "Kubernetes"],
+    "Education": "Master's",
+    "Field": "Cloud Engineering",
+    "Notice period": "3 months",
+    "Scoring": {
+      "UIUX": 4,
+      "software engineering": 5,
+      "cloud engineer": 2,
+      "datascientist": 3,
+      "AI Developer": 1,
+      "Marketing": 1
+    },
+    "Location": "Austin",
+    "expected salary": 64114
+  },
+  {
+    "Gender": "Female",
+    "Experience": {
+      "year": 12,
+      "description": "Digital Marketer with 12 years of experience in marketing"
+    },
+    "Skills": ["Analytics", "Email Marketing"],
+    "Education": "Bachelor's",
+    "Field": "Marketing",
+    "Notice period": "15 days",
+    "Scoring": {
+      "UIUX": 4,
+      "software engineering": 2,
+      "cloud engineer": 5,
+      "datascientist": 3,
+      "AI Developer": 2,
+      "Marketing": 5
+    },
+    "Location": "Chicago",
+    "expected salary": 125372
+  },
+  {
+    "Gender": "Female",
+    "Experience": {
+      "year": 7,
+      "description": "UI Designer with 7 years of experience in uiux"
+    },
+    "Skills": ["Adobe XD", "CSS", "InVision"],
+    "Education": "Bachelor's",
+    "Field": "UIUX",
+    "Notice period": "3 months",
+    "Scoring": {
+      "UIUX": 3,
+      "software engineering": 3,
+      "cloud engineer": 2,
+      "datascientist": 2,
+      "AI Developer": 2,
+      "Marketing": 3
+    },
+    "Location": "Boston",
+    "expected salary": 89122
+  },
+  {
+    "Gender": "Female",
+    "Experience": {
+      "year": 0,
+      "description": "ML Engineer with 0 years of experience in data science"
+    },
+    "Skills": ["Python", "Pandas", "R"],
+    "Education": "Bachelor's",
+    "Field": "Data Science",
+    "Notice period": "Immediate",
+    "Scoring": {
+      "UIUX": 1,
+      "software engineering": 3,
+      "cloud engineer": 3,
+      "datascientist": 2,
+      "AI Developer": 1,
+      "Marketing": 2
+    },
+    "Location": "Boston",
+    "expected salary": 124675
+  },
+  {
+    "Gender": "Female",
+    "Experience": {
+      "year": 8,
+      "description": "DevOps Engineer with 8 years of experience in cloud engineering"
+    },
+    "Skills": ["Docker", "Kubernetes"],
+    "Education": "Bachelor's",
+    "Field": "Cloud Engineering",
+    "Notice period": "3 months",
+    "Scoring": {
+      "UIUX": 4,
+      "software engineering": 1,
+      "cloud engineer": 1,
+      "datascientist": 2,
+      "AI Developer": 1,
+      "Marketing": 4
+    },
+    "Location": "Boston",
+    "expected salary": 130867
+  },
+  {
+    "Gender": "Female",
+    "Experience": {
+      "year": 7,
+      "description": "UX Designer with 7 years of experience in uiux"
+    },
+    "Skills": ["InVision", "Sketch", "CSS"],
+    "Education": "Bachelor's",
+    "Field": "UIUX",
+    "Notice period": "15 days",
+    "Scoring": {
+      "UIUX": 5,
+      "software engineering": 1,
+      "cloud engineer": 3,
+      "datascientist": 3,
+      "AI Developer": 2,
+      "Marketing": 2
+    },
+    "Location": "San Francisco",
+    "expected salary": 139811
+  },
+  {
+    "Gender": "Female",
+    "Experience": {
+      "year": 6,
+      "description": "NLP Engineer with 6 years of experience in ai development"
+    },
+    "Skills": ["Keras", "NLP", "TensorFlow", "PyTorch"],
+    "Education": "Bachelor's",
+    "Field": "AI Development",
+    "Notice period": "Immediate",
+    "Scoring": {
+      "UIUX": 2,
+      "software engineering": 2,
+      "cloud engineer": 3,
+      "datascientist": 1,
+      "AI Developer": 2,
+      "Marketing": 5
+    },
+    "Location": "Seattle",
+    "expected salary": 80176
+  },
+  {
+    "Gender": "Female",
+    "Experience": {
+      "year": 6,
+      "description": "Data Analyst with 6 years of experience in data science"
+    },
+    "Skills": ["TensorFlow", "Scikit-learn"],
+    "Education": "Master's",
+    "Field": "Data Science",
+    "Notice period": "15 days",
+    "Scoring": {
+      "UIUX": 1,
+      "software engineering": 2,
+      "cloud engineer": 1,
+      "datascientist": 4,
+      "AI Developer": 2,
+      "Marketing": 5
+    },
+    "Location": "Boston",
+    "expected salary": 121748
+  },
+  {
+    "Gender": "Female",
+    "Experience": {
+      "year": 13,
+      "description": "Product Designer with 13 years of experience in uiux"
+    },
+    "Skills": ["CSS", "Adobe XD", "Sketch", "Figma"],
+    "Education": "Master's",
+    "Field": "UIUX",
+    "Notice period": "Immediate",
+    "Scoring": {
+      "UIUX": 1,
+      "software engineering": 1,
+      "cloud engineer": 1,
+      "datascientist": 4,
+      "AI Developer": 1,
+      "Marketing": 4
+    },
+    "Location": "Austin",
+    "expected salary": 83532
+  },
+  {
+    "Gender": "Male",
+    "Experience": {
+      "year": 1,
+      "description": "Product Designer with 1 years of experience in uiux"
+    },
+    "Skills": ["Figma", "Adobe XD"],
+    "Education": "Master's",
+    "Field": "UIUX",
+    "Notice period": "1 month",
+    "Scoring": {
+      "UIUX": 2,
+      "software engineering": 1,
+      "cloud engineer": 2,
+      "datascientist": 3,
+      "AI Developer": 1,
+      "Marketing": 1
+    },
+    "Location": "Denver",
+    "expected salary": 119617
+  },
+  {
+    "Gender": "Male",
+    "Experience": {
+      "year": 3,
+      "description": "UI Designer with 3 years of experience in uiux"
+    },
+    "Skills": ["Adobe XD", "Figma", "CSS"],
+    "Education": "Bachelor's",
+    "Field": "UIUX",
+    "Notice period": "3 months",
+    "Scoring": {
+      "UIUX": 2,
+      "software engineering": 2,
+      "cloud engineer": 5,
+      "datascientist": 2,
+      "AI Developer": 2,
+      "Marketing": 2
+    },
+    "Location": "Chicago",
+    "expected salary": 124234
+  },
+  {
+    "Gender": "Female",
+    "Experience": {
+      "year": 13,
+      "description": "NLP Engineer with 13 years of experience in ai development"
+    },
+    "Skills": ["PyTorch", "Keras"],
+    "Education": "Bachelor's",
+    "Field": "AI Development",
+    "Notice period": "1 month",
+    "Scoring": {
+      "UIUX": 5,
+      "software engineering": 3,
+      "cloud engineer": 3,
+      "datascientist": 4,
+      "AI Developer": 3,
+      "Marketing": 4
+    },
+    "Location": "New York",
+    "expected salary": 112837
+  },
+  {
+    "Gender": "Female",
+    "Experience": {
+      "year": 13,
+      "description": "NLP Engineer with 13 years of experience in ai development"
+    },
+    "Skills": ["NLP", "PyTorch"],
+    "Education": "Bachelor's",
+    "Field": "AI Development",
+    "Notice period": "2 months",
+    "Scoring": {
+      "UIUX": 5,
+      "software engineering": 5,
+      "cloud engineer": 2,
+      "datascientist": 2,
+      "AI Developer": 2,
+      "Marketing": 3
+    },
+    "Location": "Chicago",
+    "expected salary": 61120
+  },
+  {
+    "Gender": "Female",
+    "Experience": {
+      "year": 11,
+      "description": "UX Designer with 11 years of experience in uiux"
+    },
+    "Skills": ["Sketch", "Figma"],
+    "Education": "Master's",
+    "Field": "UIUX",
+    "Notice period": "2 months",
+    "Scoring": {
+      "UIUX": 4,
+      "software engineering": 5,
+      "cloud engineer": 3,
+      "datascientist": 1,
+      "AI Developer": 5,
+      "Marketing": 1
+    },
+    "Location": "New York",
+    "expected salary": 145798
+  },
+  {
+    "Gender": "Male",
+    "Experience": {
+      "year": 3,
+      "description": "Frontend Developer with 3 years of experience in software engineering"
+    },
+    "Skills": ["Django", "Python"],
+    "Education": "Master's",
+    "Field": "Software Engineering",
+    "Notice period": "15 days",
+    "Scoring": {
+      "UIUX": 2,
+      "software engineering": 1,
+      "cloud engineer": 3,
+      "datascientist": 3,
+      "AI Developer": 3,
+      "Marketing": 4
+    },
+    "Location": "Austin",
+    "expected salary": 96109
+  },
+  {
+    "Gender": "Male",
+    "Experience": {
+      "year": 2,
+      "description": "UX Designer with 2 years of experience in uiux"
+    },
+    "Skills": ["Adobe XD", "CSS", "Sketch"],
+    "Education": "Master's",
+    "Field": "UIUX",
+    "Notice period": "1 month",
+    "Scoring": {
+      "UIUX": 4,
+      "software engineering": 1,
+      "cloud engineer": 2,
+      "datascientist": 3,
+      "AI Developer": 1,
+      "Marketing": 2
+    },
+    "Location": "New York",
+    "expected salary": 62221
+  },
+  {
+    "Gender": "Male",
+    "Experience": {
+      "year": 6,
+      "description": "Full Stack Developer with 6 years of experience in software engineering"
+    },
+    "Skills": ["Java", "React", "Python"],
+    "Education": "Master's",
+    "Field": "Software Engineering",
+    "Notice period": "1 month",
+    "Scoring": {
+      "UIUX": 2,
+      "software engineering": 1,
+      "cloud engineer": 4,
+      "datascientist": 3,
+      "AI Developer": 4,
+      "Marketing": 4
+    },
+    "Location": "Austin",
+    "expected salary": 65201
+  },
+  {
+    "Gender": "Male",
+    "Experience": {
+      "year": 13,
+      "description": "Product Designer with 13 years of experience in uiux"
+    },
+    "Skills": ["Figma", "HTML"],
+    "Education": "Bachelor's",
+    "Field": "UIUX",
+    "Notice period": "2 months",
+    "Scoring": {
+      "UIUX": 4,
+      "software engineering": 5,
+      "cloud engineer": 4,
+      "datascientist": 3,
+      "AI Developer": 1,
+      "Marketing": 4
+    },
+    "Location": "San Diego",
+    "expected salary": 105651
+  },
+  {
+    "Gender": "Female",
+    "Experience": {
+      "year": 9,
+      "description": "UI Designer with 9 years of experience in uiux"
+    },
+    "Skills": ["Figma", "Adobe XD", "HTML"],
+    "Education": "Master's",
+    "Field": "UIUX",
+    "Notice period": "3 months",
+    "Scoring": {
+      "UIUX": 2,
+      "software engineering": 5,
+      "cloud engineer": 3,
+      "datascientist": 1,
+      "AI Developer": 3,
+      "Marketing": 1
+    },
+    "Location": "Atlanta",
+    "expected salary": 55850
+  },
+  {
+    "Gender": "Female",
+    "Experience": {
+      "year": 9,
+      "description": "UI Designer with 9 years of experience in uiux"
+    },
+    "Skills": ["Figma", "CSS", "InVision", "HTML"],
+    "Education": "Master's",
+    "Field": "UIUX",
+    "Notice period": "15 days",
+    "Scoring": {
+      "UIUX": 2,
+      "software engineering": 5,
+      "cloud engineer": 1,
+      "datascientist": 1,
+      "AI Developer": 3,
+      "Marketing": 3
+    },
+    "Location": "San Francisco",
+    "expected salary": 55607
+  },
+  {
+    "Gender": "Female",
+    "Experience": {
+      "year": 14,
+      "description": "Cloud Engineer with 14 years of experience in cloud engineering"
+    },
+    "Skills": ["Terraform", "AWS", "GCP", "Azure"],
+    "Education": "Master's",
+    "Field": "Cloud Engineering",
+    "Notice period": "3 months",
+    "Scoring": {
+      "UIUX": 1,
+      "software engineering": 1,
+      "cloud engineer": 1,
+      "datascientist": 3,
+      "AI Developer": 2,
+      "Marketing": 3
+    },
+    "Location": "Atlanta",
+    "expected salary": 56346
+  },
+  {
+    "Gender": "Female",
+    "Experience": {
+      "year": 4,
+      "description": "UX Designer with 4 years of experience in uiux"
+    },
+    "Skills": ["HTML", "Figma", "Sketch"],
+    "Education": "Master's",
+    "Field": "UIUX",
+    "Notice period": "Immediate",
+    "Scoring": {
+      "UIUX": 5,
+      "software engineering": 1,
+      "cloud engineer": 2,
+      "datascientist": 5,
+      "AI Developer": 4,
+      "Marketing": 3
+    },
+    "Location": "Chicago",
+    "expected salary": 86447
+  },
+  {
+    "Gender": "Female",
+    "Experience": {
+      "year": 6,
+      "description": "Data Analyst with 6 years of experience in data science"
+    },
+    "Skills": ["Python", "Pandas", "SQL", "Scikit-learn"],
+    "Education": "Bachelor's",
+    "Field": "Data Science",
+    "Notice period": "15 days",
+    "Scoring": {
+      "UIUX": 4,
+      "software engineering": 2,
+      "cloud engineer": 5,
+      "datascientist": 5,
+      "AI Developer": 4,
+      "Marketing": 3
+    },
+    "Location": "Seattle",
+    "expected salary": 121003
+  },
+  {
+    "Gender": "Female",
+    "Experience": {
+      "year": 15,
+      "description": "Product Designer with 15 years of experience in uiux"
+    },
+    "Skills": ["HTML", "Adobe XD", "CSS", "InVision"],
+    "Education": "Master's",
+    "Field": "UIUX",
+    "Notice period": "Immediate",
+    "Scoring": {
+      "UIUX": 1,
+      "software engineering": 1,
+      "cloud engineer": 1,
+      "datascientist": 5,
+      "AI Developer": 1,
+      "Marketing": 4
+    },
+    "Location": "Seattle",
+    "expected salary": 121832
+  }
+]
