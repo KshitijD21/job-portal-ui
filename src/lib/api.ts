@@ -9,17 +9,27 @@ interface ApiResponse<T> {
   timestamp: string;
 }
 
+type LoginApiResponse = {
+  status: string;
+  message: string;
+  data: {
+    token: string;
+    role: Role;
+  };
+  errors: any;
+};
+
 export const getUsers = async () => {
   const res = await api.get("/users");
   return res.data;
 };
 
-export const loginUser = async (email: string, password: string) : Promise<ApiResponse<string>> => {
-  const res = await api.post<ApiResponse<string>>("/login", {
-    email,
-    password,
-  });
 
+export const loginUser = async (
+  email: string,
+  password: string
+): Promise<LoginApiResponse> => {
+  const res = await api.post("/login", { email, password });
   return res.data;
 };
 

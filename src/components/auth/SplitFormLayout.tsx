@@ -28,11 +28,11 @@ export default function SplitFormLayout({ role }: { role: Role }) {
             image="/recruiter.png"
             flip
           />
-          <FormPanel />
+          <FormPanel role={role} />
         </>
       ) : (
         <>
-          <FormPanel />
+          <FormPanel role={role} />
           <IllustrationPanel
             title="I'm here seeking a job"
             image="/jobseeker.png"
@@ -43,12 +43,12 @@ export default function SplitFormLayout({ role }: { role: Role }) {
   );
 }
 
-function FormPanel() {
+function FormPanel({ role }: { role: Role }) {
   return (
     <div className="flex-1 p-6 flex flex-col justify-between">
       <div className="flex-1 flex justify-center items-center">
         <div className="w-full max-w-md">
-          <SignUpForm />
+          <SignUpForm role={role} />
         </div>
       </div>
       <div className="text-xs text-gray-400 px-4 pb-2 flex justify-between">
