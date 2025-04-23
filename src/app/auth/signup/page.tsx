@@ -15,12 +15,11 @@ interface AuthFormProps {
 }
 
 type SignUpProps = {
-  searchParams: {
-    role?: string;
-  };
+  searchParams: Promise<{ role?: string }>;
 };
-export default function SignUpPage({ searchParams }: SignUpProps) {
-  const role = (searchParams.role as Role) || Role.JOBHUNTER;
+export default async function SignUpPage({ searchParams }: SignUpProps) {
+  const { role: roleParam } = await searchParams;
+  const role = (roleParam as Role) || Role.JOBHUNTER;
 
   console.log("role ", role);
 

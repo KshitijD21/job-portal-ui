@@ -8,11 +8,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import React, { FormEvent, useEffect, useState } from "react";
 
-type Props = {
-  searchParams: { role?: Role };
-};
-
-export default function SignIn({ searchParams }: Props) {
+export default function SignIn() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
