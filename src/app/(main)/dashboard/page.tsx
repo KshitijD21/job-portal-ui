@@ -1,9 +1,9 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import JobList from "./JobList";
-import RecruiterList from "@/app/(main)/dashboard/RecruiterList";
+
 import RecruiterDashboard from "@/app/(main)/dashboard/RecuiterDashboard";
+import JobList from "@/components/dashboard/JobList";
 
 export default function HomePage() {
   const [role, setRole] = useState<string | null>(null);
@@ -26,7 +26,7 @@ export default function HomePage() {
   }
 
   return (
-    <main className="min-h-screen bg-white p-6">
+    <main className="min-h-screen bg-white p-3 overflow-x-hidden">
       <h1 className="text-3xl font-semibold mb-4">Recent Posts</h1>
       <JobList />
     </main>
