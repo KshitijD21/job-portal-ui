@@ -11,6 +11,8 @@ export default function SignUpForm({ role }: { role: Role }) {
   const [userName, setUserName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [message, setMessage] = useState("");
+  const [error, setError] = useState("");
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => setMounted(true), []);
@@ -21,10 +23,24 @@ export default function SignUpForm({ role }: { role: Role }) {
 
     try {
       const res = await registerUser(email, userName, password, role);
-      //   localStorage.setItem("authToken", res);
-      console.log("Sign up successful");
+
+      // ✅ Check if the ID exists in response
+      const user = res?.data || res;
+      if (user?.id) {
+        setMessage("Signup successful! Redirecting...");
+        setError("");
+
+        setTimeout(() => {
+          window.location.href = "/auth/signin";
+        }, 1500);
+      } else {
+        setError("Signup failed. Please try again.");
+        setMessage("");
+      }
     } catch (error) {
-      console.error("Sign up failed: ", error);
+      console.error("Signup failed:", error);
+      setError("Something went wrong. Please check your input.");
+      setMessage("");
     }
   };
 

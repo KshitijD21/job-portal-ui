@@ -1,6 +1,5 @@
 "use client";
 import { useState } from "react";
-import axios from "axios";
 import { uploadResume } from "@/lib/api";
 
 export default function ResumeUpload() {
