@@ -13,7 +13,6 @@ type Props = {
 };
 
 export default function SignIn({ searchParams }: Props) {
-  const { resolvedTheme } = useTheme();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
@@ -21,7 +20,6 @@ export default function SignIn({ searchParams }: Props) {
   const [mounted, setMounted] = useState(false);
   const router = useRouter();
 
-  const role = searchParams?.role as Role;
   useEffect(() => setMounted(true), []);
   if (!mounted) return null;
 
@@ -39,7 +37,7 @@ export default function SignIn({ searchParams }: Props) {
         setMessage("");
       }
     } catch (err: any) {
-      setError("Invalid credentials or server error");
+      setError("Invalid credentials or server error ");
       setMessage("");
     }
   };

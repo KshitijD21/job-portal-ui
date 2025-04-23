@@ -9,12 +9,12 @@ import AIAssistant from "@/components/AIAssistant";
 export default function JobDetailsPage() {
   const { id } = useParams();
   const [job, setJob] = useState<Job | null>(null);
-  const [showAIModal, setShowAIModal] = useState(false);
-  const [loading, setLoading] = useState(false);
-  const [aiData, setAiData] = useState<{
-    missingSkills: string[];
-    improvementSuggestions: string[];
-  } | null>(null);
+  // const [showAIModal, setShowAIModal] = useState(false);
+  // const [loading, setLoading] = useState(false);
+  // const [aiData, setAiData] = useState<{
+  //   missingSkills: string[];
+  //   improvementSuggestions: string[];
+  // } | null>(null);
 
   useEffect(() => {
     if (!id) return;
@@ -29,17 +29,17 @@ export default function JobDetailsPage() {
     fetchJob();
   }, [id]);
 
-  const fetchAIInsights = async () => {
-    setLoading(true);
-    try {
-      const data = await getAIInsights(id as string);
-      setAiData(data);
-    } catch (err) {
-      console.error("AI insights error:", err);
-    } finally {
-      setLoading(false);
-    }
-  };
+  // const fetchAIInsights = async () => {
+  //   setLoading(true);
+  //   try {
+  //     const data = await getAIInsights(id as string);
+  //     setAiData(data);
+  //   } catch (err) {
+  //     console.error("AI insights error:", err);
+  //   } finally {
+  //     setLoading(false);
+  //   }
+  // };
 
   if (!job) return <p className="p-6">Loading job details...</p>;
 
