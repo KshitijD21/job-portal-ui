@@ -27,7 +27,9 @@ export default function HomePage() {
 
   return (
     <main className="min-h-screen bg-white p-3 overflow-x-hidden">
-      <h1 className="text-3xl font-semibold mb-4">Recent Posts</h1>
+    <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold mb-4">
+  Recent Posts
+</h1>
       <JobList />
     </main>
   );
