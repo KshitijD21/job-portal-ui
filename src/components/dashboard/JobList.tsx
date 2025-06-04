@@ -150,7 +150,7 @@ export default function JobList() {
 
             <div className="mt-3">
               <ApplyNowButton
-                onClick={(e) => {
+                onClick={(e: any) => {
                   e.stopPropagation();
                   console.log("apply to", job.id);
                 }}
